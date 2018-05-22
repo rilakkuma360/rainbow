@@ -1,4 +1,4 @@
-package org.base.discover.eurek;
+package com.common.discovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class BaseDiscoveryEurekApplication {
+public class MicroserviceDiscoveryEurekApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BaseDiscoveryEurekApplication.class, args);
+		SpringApplication.run(MicroserviceDiscoveryEurekApplication.class, args);
 	}
 }

@@ -41,6 +41,9 @@
 		</plugins>
 	</build>
 	<modules>
-		<module>base-discover-eurek</module>
+		
+		<module>base-simple-consumer</module>
+		<module>base-simple-provider</module>
+		<module>base-discovery-eureka</module>
 	</modules>
 </project>
